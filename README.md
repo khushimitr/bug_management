@@ -1,5 +1,5 @@
 # Backend (Spring)
-[Spring Bug Tracker]([https://github.com/khushimitr/bug_management_backend])
+[Spring Bug Tracker](https://github.com/khushimitr/bug_management_backend)
 
 # React + TypeScript + Vite
 
