@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    border-radius: 64px;
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(240 5% 84%);
+    border: 1px solid #fafafa;
+    border-radius: 64px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 64px;
+    background: #71717a;
+}
+
+::-webkit-scrollbar-thumb:active {
+    border-radius: 64px;
+    background: #11181C;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #fafafa;
+    border-radius: 64px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #fafafa;
+    border-radius: 64px;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #fafafa;
+    border-radius: 64px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+    border-radius: 64px;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+.ds-collapse-title, .ds-collapse > input[type="checkbox"] {
+    min-height: 0;
+}
